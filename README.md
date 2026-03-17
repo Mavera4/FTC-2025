@@ -31,7 +31,7 @@ To counter defense and reduce cycle times, we implemented a predictive shooting 
 θ_turret_adj = arctan((140 - (y + vy*d)) / (140 - (x + vx*d))) - (θ_heading + v_heading * d)
 ```
 
-This lets the robot score while being pushed — a meaningful competitive advantage in tight matches.
+This lets the robot score while being pushed - a meaningful competitive advantage in tight matches.
 
 ---
 
